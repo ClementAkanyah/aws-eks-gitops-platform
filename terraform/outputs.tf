@@ -17,3 +17,13 @@ output "vpc_id" {
   description = "VPC ID"
   value       = aws_vpc.main.id
 }
+
+output "aws_load_balancer_controller_role_arn" {
+  description = "IAM role used by the AWS Load Balancer Controller"
+  value       = aws_iam_role.aws_load_balancer_controller.arn
+}
+
+output "cluster_autoscaler_role_arn" {
+  description = "IAM role used by Kubernetes Cluster Autoscaler"
+  value       = aws_iam_role.cluster_autoscaler.arn
+}
