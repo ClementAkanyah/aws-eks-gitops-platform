@@ -13,3 +13,6 @@ terraform/tfplan
 
 jenkins-deployment-policy.json
 jenkins-trust-policy.json
+
+github-actions-trust-policy.json
+github-actions-ecr-policy.json
