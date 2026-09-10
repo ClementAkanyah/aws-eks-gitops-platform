@@ -1,4 +1,4 @@
-﻿# DevOps Technical Challenge — AWS EKS CI/CD & GitOps
+﻿# AWS EKS CI/CD & GitOps
 
 This project demonstrates the design and implementation of a complete cloud-native application delivery platform on **Amazon Web Services (AWS)**.
 
