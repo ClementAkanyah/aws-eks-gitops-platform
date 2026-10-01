@@ -1066,17 +1066,11 @@ The branches were intentionally kept separate so that the two CI/CD approaches c
 
 # Cleanup and Cost Control
 
-The AWS environment contains billable resources, including:
+## Cleanup and Cost Control
 
-- Amazon EKS
-- EC2 worker nodes
-- Jenkins EC2 instance
-- Application Load Balancer
-- Amazon ECR storage
+After completing deployment and verification, I destroyed the AWS resources to prevent ongoing charges. The Terraform, Kubernetes, Helm, and pipeline configurations remain available for review and reproduction.
 
-The infrastructure should remain available until project grading or review is complete.
-
-After grading, Terraform-managed infrastructure can be removed with:
+After reviewing, Terraform-managed infrastructure can be removed with:
 
 ```bash
 cd terraform
